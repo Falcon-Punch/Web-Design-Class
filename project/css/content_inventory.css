@@ -1,0 +1,26 @@
+body {
+    background-color: #D7D7D7;
+    font-family: Verdana, Arial, sans-serif;     
+}
+
+h1 {
+    line-height: 200%;    
+    text-align: center;
+    font-size: 4em;
+}
+
+dt {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 1.2em
+}
+
+dd {
+    padding-bottom: 20px;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
