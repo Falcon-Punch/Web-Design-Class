@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	background-color: #3f2860;
 	color: #3f2860;
@@ -52,4 +53,60 @@ h1 {
 }
 #hero {
     text-align: center;
+=======
+body {
+	background-color: #3f2860;
+	color: #3f2860;
+	font-family: verdana, arial, sans-serif;
+}
+header {
+	background-color: #9BC1C2;
+    background-image: url(../images/lilyheader.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 150px;
+	display: block;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+}
+nav a {
+	text-decoration: none;
+}
+img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+main {
+	padding-left: 2em;
+    padding-right: 2em;
+	display: block;
+}
+footer {
+	padding: 1em;
+	background-color: #9BC1C2;
+	font-size: 0.60em;
+	font-style: italic;
+	text-align: center;
+}
+h1 {
+	padding-top: 50px;
+	padding-left: 2em;
+}
+.studio {
+	font-style: italic;
+}
+#wrapper {
+    width: 80%;
+    min-width: 1000px;
+	max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F5;
+}
+#hero {
+    text-align: center;
+>>>>>>> feaafb8ff30eb93cddcad84ae097c6ff6f9f0093
 }
