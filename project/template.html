@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
 <!-- 
-Assignment Name: Project Update 3
+Assignment: Project Update 4
 File Name: template.html
-Date: 07/29/18 
+Date: 08/12/18
 Programmer: Joseph Schell
 -->
 
@@ -11,8 +11,10 @@ Programmer: Joseph Schell
 <head>
     <title>Portland Historical Tours</title>
     <meta charset="utf-8">
+        <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
     <link href="styles/template.css" rel="stylesheet">
-    <!--[if lt IE 9]> <script src="html5shiv.js"></script> <![endif]-->
+<!--[if lt IE 9]> <script src="html5shiv.js"></script> <![endif]-->
 </head>
 <body>
     <div id="wrapper">
@@ -23,8 +25,8 @@ Programmer: Joseph Schell
             <li><a href="downtown_tour.html">Downtown Tour</a></li>
             <li><a href="growth_tour.html">Growth Tour</a></li>
             <li><a href="landmarks_tour.html">Landmarks Tour</a></li>
-            <li><a href="forms.html">Forms</a></li>
-            <li><a href="general_information.html">General Info</a></li>
+            <li><a href="book_a_tour.html">Book a tour</a></li>
+            <li><a href="general_information.html">General Information</a></li>
         </ul>
     </nav>
     
@@ -33,7 +35,7 @@ Programmer: Joseph Schell
             <p>Hero Image Here.</p>
         </div>
         <h2>Heading 2 (h2)</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <ul>
         <li>list item (1)</li>
         <li>list item (2)</li>
@@ -42,15 +44,16 @@ Programmer: Joseph Schell
         <li>list item (5)</li>
     </ul>
     <div>
-        <h3><span class="company">Company Name (h3)</span></h3><br>
+        <span class="company">Company Name</span><br><br>
         Address 1<br>
         Address 2<br><br>
-        800-555-1234<br><br>
+        <a id="mobile" href="tel:800-555-1234">800-555-1234</a><span id="desktop">800-555-1234</span><br><br>
+
     </div>
     </main>
     <footer>
-        Copyright &copy; 2018 Portland Historical Tours<br>
-        <a href="mailto:joseph.schell@pcc.edu">joseph.schell@pcc.edu</a>
+            Copyright &copy; 2018 Portland Historical Tours<br>
+            <a href="mailto:joseph.schell@pcc.edu">joseph.schell@pcc.edu</a>
     </footer>
     </div>
     </body>
